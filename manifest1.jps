@@ -1,0 +1,9 @@
+{
+   "type": "install",
+   "name": "Test skipNodeEmails",
+   "skipNodeEmails": false,
+   "nodes": [{
+      "nodeType": "mysql",
+      "cloudlets": 8
+   }]
+}
