@@ -2,6 +2,6 @@
    "type": "update",
    "name": "Test",
    "onInstall": {
-      "script": "return jelastic.marketplace.jps.Install({\n  envName: \"env-bla\",\n  skipNodeEmails: \"true\",\n  jps: toJSON({\n    type: \"install\",\n    name: \"Test skipNodeEmails\",\n    nodes: [{\n      nodeType: \"mysql\",\n      cloudlets: 8\n    }]\n  })\n});\n"
+      "script": "return jelastic.marketplace.jps.Install({\n  envName: \"env-bla1\",\n  skipNodeEmails: \"true\",\n  jps: toJSON({\n    type: \"install\",\n    name: \"Test skipNodeEmails\",\n    nodes: [{\n      nodeType: \"mysql\",\n      cloudlets: 8\n    }]\n  })\n});\n"
    }
 }
